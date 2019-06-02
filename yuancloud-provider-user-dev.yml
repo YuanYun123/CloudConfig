@@ -1,4 +1,6 @@
-profile: dev-1.0
+spring:
+  # 指定profile=dev1
+  profiles: dev1
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
