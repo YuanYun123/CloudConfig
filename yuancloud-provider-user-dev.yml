@@ -1,7 +1,4 @@
 spring:
-  # 指定profile=dev1
-  profiles: dev1
-spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/edushop?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
